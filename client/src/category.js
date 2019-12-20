@@ -30,7 +30,9 @@ export default class Category extends Component {
                         <ul className="has-background-white-bis">
                             {this.props.books.map(function(elm) {
                                 if (category) {
-                                    if(true){
+                                    console.log(elm.category);
+                                    console.log(category.category);
+                                    if(elm.category === category.category){
                                         return <li key={elm._id}><Link className="list-item" to={"/book/" + elm._id}>{elm.text}</Link></li>;
                                     }
                                 }
