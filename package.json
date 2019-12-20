@@ -1,0 +1,19 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "This is a small example of an \"questions and answers\" site built on the MERN stack. It's not production ready and serves primarily as an example of using the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yungnogger/reactexam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yungnogger/reactexam/issues"
+  },
+  "homepage": "https://github.com/yungnogger/reactexam#readme"
+}
