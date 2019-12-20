@@ -43,7 +43,7 @@ class QuestionDAL {
                 let rng = Math.floor(Math.random() * 3);
                 let question = new this.questionModel({
                     text: '9th grade english book for sale',
-                    category: 'english'
+                    category: 'english number: ' + rng
                 });
                 promises.push(question.save());
             }

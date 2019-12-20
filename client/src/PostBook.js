@@ -30,11 +30,11 @@ export default class PostBook extends Component {
 
                 <div className="field">
                     <label className="label" htmlFor="QuestionInput">Add a book of your choice</label>
-                    <textarea className="textarea" onChange={this.onChange} name="book"
+                    <textarea className="textarea" onChange={this.onChange} name="text"
                            value={this.state.book}
                            placeholder="name of book, date, etc"
                            id="QuestionInput"/>
-                           <input type="hidden" name="category" value="testcat"/>
+                           <input type="hidden" className="category" name="category" value="textcat"/>
                 </div>
                 <div className="field">
                     <button className="button is-primary" onClick={this.handleInput} type="submit"
